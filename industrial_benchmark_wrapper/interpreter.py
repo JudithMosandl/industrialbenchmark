@@ -26,17 +26,16 @@ class interpreter():
         # Agent performs one step and gets new state
         # save state in State-Buffer (30 states)
         self.env.step(action)
-        self.states = self.env.visibleState()
-        #markov_state = self.list_to_numpy()
-        #self.hidden = self.markovianState()
-        self.state = self.create_state_array()
-        #print(self.state)
-        #print(self.env.visibleState())
+        self.new_state = self.env.visibleState()
+        self.state = self.create_state_array(self.new_state)
+
         return self.state
 
 
-    def create_state_array(self):
-        return np.array([ ('p',self.env.state['p']), ('v',self.env.state['v']), ('g',self.env.state['g']), ('h',self.env.state['h']), ('f',self.env.state['f']), ('c',self.env.state['c']),('cost',self.env.state['cost']), ('reward',self.env.state['reward']) ])
+    def create_state_array(self, states):
+        return np.array([ ('p',states[0]), ('v',states[1]), ('g',states[2]), ('h',states[3]), ('f',states[4]), ('c',states[5]),('cost',states[6]), ('reward',states[7]) ], dtype=[('baz', 'S10'),('bar', 'f4')])
+
+        #return np.array([ ('p',states[0]), ('v',self.env.state['v']), ('g',self.env.state['g']), ('h',self.env.state['h']), ('f',self.env.state['f']), ('c',self.env.state['c']),('cost',self.env.state['cost']), ('reward',self.env.state['reward']) ], dtype=[('baz', 'S10'),('bar', 'f4')])
 
 
 

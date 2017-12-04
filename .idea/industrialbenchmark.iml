@@ -8,6 +8,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/industrial_benchmark_openai" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/industrial_benchmark_wrapper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea/inspectionProfiles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gym_IB" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gym_IB/gym_IB" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gym_IB/gym_IB/envs" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

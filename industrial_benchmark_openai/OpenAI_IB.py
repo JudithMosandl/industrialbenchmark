@@ -54,7 +54,7 @@ class OpenAI_IB(gym.Env):
                         self.action_space = spaces.Discrete(27)
 
                         # Observation space for [setpoint, velocity, gain, shift, fatigue, consumption, cost]
-                        self.observation_space = spaces.Box(low=np.array([0, 0, 0, 0, 0, 0]), high=np.array([100, 100, 100, 1000, 1000, 1000]))
+                        self.observation_space = spaces.Box(low=np.array([0, 0, 0, 0, 0, 0, 0]), high=np.array([100, 100, 100, 1000, 1000, 1000, 1000]))
 
                         # A list of all possible actions discretized into [-1,0,1] e.g. [[-1,-1,-1],[-1,-1,0],[-1,-1,1],[-1,0,-1],[-1,0,0], ... ]
                         # Network has 27 outputs and chooses one environmental action out of the discretized 27 possible actions
@@ -63,7 +63,7 @@ class OpenAI_IB(gym.Env):
                                 for g in [-1, 0, 1]:
                                         for s in [-1, 0, 1]:
                                                 self.env_action.append([v, g, s])
-                        self.observation_space = spaces.Box(low=np.array([0, 0, 0, 0, 0, 0]), high=np.array([100, 100, 100, 1000, 1000, 1000]))
+                        self.observation_space = spaces.Box(low=np.array([0, 0, 0, 0, 0, 0, 0]), high=np.array([100, 100, 100, 1000, 1000, 1000, 1000]))
 
                 elif self.action_type == 'continuous':
 
@@ -71,7 +71,7 @@ class OpenAI_IB(gym.Env):
                         self.action_space = spaces.Box(np.array([-1,-1,-1]), np.array([+1,+1,+1]))
 
                         # Observation space for [setpoint, velocity, gain, shift, fatigue, consumption, cost]
-                        self.observation_space = spaces.Box(low=np.array([0, 0, 0, 0, 0, 0]), high=np.array([100, 100, 100, 1000, 1000, 1000]))
+                        self.observation_space = spaces.Box(low=np.array([0, 0, 0, 0, 0, 0, 0, 0]), high=np.array([100, 100, 100, 1000, 1000, 1000, 1000, 1000]))
 
                 else:
                         raise ValueError('Invalid action_type. action_space can either be "discrete" or "continuous"')
@@ -110,6 +110,7 @@ class OpenAI_IB(gym.Env):
                         self.IB.step(_action)
 
                 self.observation = self.IB.visibleState()[:-1]
+                print(self.observation)
 
                 # Calculating both the relative reward (improvement or decrease) and updating the reward
                 self.delta_reward = self.reward - self.IB.state['cost']
@@ -135,7 +136,7 @@ class OpenAI_IB(gym.Env):
                         raise ValueError('Invalid reward function specification. "classic" for the original cost function or "delta" for the change in the cost fucntion between steps.')
 
                 # Print to track agent & environment during training
-                print ' Cost smoothed:', -self.smoothed_cost, ' State (v,g,s):', np.around(self.IB.visibleState()[1:4], 0), '\t Action: ', _action,
+                #print ' Cost smoothed:', -self.smoothed_cost, ' State (v,g,s):', np.around(self.IB.visibleState()[1:4], 0), '\t Action: ', _action,
 
                 self.info = self.markovianState()
                 # reward is divided by 100 to improve learning
@@ -151,8 +152,7 @@ class OpenAI_IB(gym.Env):
                 self.env_steps = 0
                 self.done = False
 
-                print '\n Reset'
-                print
+                print ('\n Reset')
 
                 return self.observation
 
@@ -162,7 +162,7 @@ class OpenAI_IB(gym.Env):
 
         #
         def _render(self, mode='human', close=False):
-                print 'Rendering of the environment is not supported'
+                print ('Rendering of the environment is not supported')
                 pass
 
         def markovianState(self):
@@ -174,7 +174,7 @@ class OpenAI_IB(gym.Env):
                 markovian_states_values = [self.IB.state['p'],
                                            self.IB.state['v'],
                                            self.IB.state['g'],
-                                           self.IB.state['s'],
+                                           self.IB.state['h'],
                                            self.IB.state['f'],
                                            self.IB.state['c'],
                                            self.IB.state['o'][0],

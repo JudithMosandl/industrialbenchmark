@@ -40,7 +40,7 @@ env = OpenAI_IB(setpoint=50, reward_type='classic', action_type='discrete')
 np.random.seed(123)
 env.seed(123)
 nb_actions = env.action_space.n
-print (nb_actions)
+print (env.action_space)
 
 
 print ('step 1')
@@ -54,7 +54,33 @@ print (info)
 print (env.action_space)
 print (env.observation_space.shape)
 
+env = OpenAI_IB(setpoint=50, reward_type='classic', action_type='discrete')
+#env = gym.make('IB-v0')
+action_dim = env.action_space.n
+state_size = env.observation_space.shape
 
+model = Sequential()
+model.add(Flatten(input_shape=(1,) + state_size))
+model.add(Dense(124))
+model.add(Activation('relu'))
+model.add(Dense(56))
+model.add(Activation('relu'))
+model.add(Dense(action_dim))
+model.add(Activation('linear'))
+print(model.summary())
+
+
+memory = SequentialMemory(limit=10, window_length=1)
+policy = BoltzmannQPolicy()
+dqn = DQNAgent(model=model, nb_actions=action_dim, memory=memory, nb_steps_warmup=20,target_model_update=1e-2, policy=policy)
+        # Okay, now it's time to learn something! We visualize the training here for show, but this
+        # slows down training quite a lot. You can always safely abort the training prematurely using
+        # Ctrl + C.
+dqn.compile(Adam(lr=1e-3), metrics=['mae'])
+
+dqn.fit(env, nb_steps=1000, visualize=False, verbose=1)
+
+"""
 # Next, we build a very simple model.
 model = Sequential()
 model.add(Flatten(input_shape=(1,) + env.observation_space.shape))
@@ -78,3 +104,5 @@ dqn.compile(Adam(lr=1e-3), metrics=['mae'])
 # slows down training quite a lot. You can always safely abort the training prematurely using
 # Ctrl + C.
 dqn.fit(env, nb_steps=50000, visualize=False, verbose=1)
+
+"""

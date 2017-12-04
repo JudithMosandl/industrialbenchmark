@@ -1,4 +1,3 @@
-# coding: utf8
 import unittest
 from IDS import IDS
 import numpy as np

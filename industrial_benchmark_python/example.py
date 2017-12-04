@@ -28,7 +28,7 @@ from IDS import IDS
 import numpy as np
 import pylab as plt
 
-n_trajectories = 10
+n_trajectories = 5
 T = 1000
 
 data = np.zeros((n_trajectories,T))
