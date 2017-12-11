@@ -2,29 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2aef39-300b-43bf-a283-050c37cc7c4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States0.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States1.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States3.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States4.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States5.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States6.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States7.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States8.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States9.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/operational_States5.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/operational_States6.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/operational_States7.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/operational_States8.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/industrial_benchmark_python/operational_States9.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/goldstone/nlgp.py" afterPath="$PROJECT_DIR$/industrial_benchmark_python/nlgp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States0.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States0.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States1.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States2.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States3.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States4.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States5.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States6.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States7.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States8.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States9.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test0.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test0.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test1.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test2.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test3.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test4.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test5.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test6.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test7.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test8.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test9.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test9.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/goldstone/dynamics.py" afterPath="$PROJECT_DIR$/industrial_benchmark_python/goldstone/dynamics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States0.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/operational_States0.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States1.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/operational_States1.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States2.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/operational_States2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States3.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/operational_States3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States4.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/operational_States4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py" afterPath="$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +42,8 @@
       <file leaf-file-name="example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="177">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#1121#1140#0" expanded="true" />
               </folding>
@@ -54,8 +54,8 @@
       <file leaf-file-name="test_industrial_benchmark_python.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+            <state relative-caret-position="345">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,21 +64,11 @@
       <file leaf-file-name="dynamics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/goldstone/dynamics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="142" column="49" lean-forward="true" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
+            <state relative-caret-position="675">
+              <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IDS.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/IDS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="281" column="0" lean-forward="false" selection-start-line="273" selection-start-column="8" selection-end-line="281" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -95,26 +85,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/confi.py">
+      <file leaf-file-name="agent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interpreter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/interpreter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="248">
+              <caret line="46" column="73" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="73" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,8 +133,8 @@
       <find>trenner</find>
       <find>'he'</find>
       <find>_compute_domain</find>
-      <find>reward</find>
       <find>get_penalty_function</find>
+      <find>reward</find>
       <find>print</find>
     </findStrings>
   </component>
@@ -174,7 +150,6 @@
         <option value="$PROJECT_DIR$/industrial_benchmark_wrapper/model.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_python/IDS.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_wrapper/example_run.py" />
-        <option value="$PROJECT_DIR$/industrial_benchmark_python/example.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_wrapper/interpreter.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_wrapper/confi.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_wrapper/agent.py" />
@@ -187,12 +162,13 @@
         <option value="$PROJECT_DIR$/industrial_benchmark_openai/DQN_KerasRL_IBDiscrete.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_openai/OpenAI_IB.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py" />
+        <option value="$PROJECT_DIR$/industrial_benchmark_python/example.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_python/goldstone/dynamics.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
+    <option name="x" value="14" />
     <option name="y" value="23" />
     <option name="width" value="1266" />
     <option name="height" value="773" />
@@ -222,20 +198,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="industrialbenchmark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="industrialbenchmark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="industrialbenchmark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="industrial_benchmark_wrapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -555,10 +517,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_industrial_benchmark_python" />
-        <item index="1" class="java.lang.String" itemvalue="Python.DQN_KerasRL_IBDiscrete" />
-        <item index="2" class="java.lang.String" itemvalue="Python.agent (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.IB_env" />
-        <item index="4" class="java.lang.String" itemvalue="Python.example_run" />
+        <item index="1" class="java.lang.String" itemvalue="Python.example_run" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DQN_KerasRL_IBDiscrete" />
+        <item index="3" class="java.lang.String" itemvalue="Python.agent (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.IB_env" />
       </list>
     </recent_temporary>
   </component>
@@ -576,9 +538,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_industrial_benchmark_python - 2017.12.04 at 20h 41m 23s.xml">
-      <configuration name="Unittests in test_industrial_benchmark_python" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_industrial_benchmark_python - 2017.12.04 at 20h 42m 22s.xml">
       <configuration name="Unittests in test_industrial_benchmark_python" configurationId="tests" />
     </history-entry>
@@ -606,9 +565,12 @@
     <history-entry file="Unittests_in_test_industrial_benchmark_python - 2017.12.04 at 21h 02m 56s.xml">
       <configuration name="Unittests in test_industrial_benchmark_python" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_industrial_benchmark_python - 2017.12.11 at 09h 56m 57s.xml">
+      <configuration name="Unittests in test_industrial_benchmark_python" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="23" width="1266" height="773" extended-state="0" />
+    <frame x="14" y="23" width="1266" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -690,7 +652,7 @@
         <state relative-caret-position="1305">
           <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -853,56 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="67" column="15" lean-forward="false" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/interpreter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/example_run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#1121#1140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/confi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/numpy/testing/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -983,10 +895,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/confi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/interpreter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/example_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/industrial_benchmark_wrapper/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="46" column="73" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#1121#1140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/all_States8.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/nlgp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1065">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/goldstone/dynamics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="142" column="49" lean-forward="true" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
+        <state relative-caret-position="675">
+          <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -995,8 +971,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        <state relative-caret-position="345">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>

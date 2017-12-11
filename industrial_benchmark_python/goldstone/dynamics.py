@@ -10,12 +10,12 @@ from enum import Enum
 class dynamics:
     class Domain(Enum):
         negative = -1
-        initial = 0
+        #initial = 0
         positive = +1
 
     class System_Response(Enum):
         advantageous = +1
-        neutral = 0
+        #neutral = 0
         disadvantageous = -1
 
     def __init__(self, number_steps, max_required_step, safe_zone):
@@ -40,12 +40,11 @@ class dynamics:
         if (number_steps // 4):
             raise ValueError('number_steps must be integer multiple of 4')
         return number_steps
-        '''
-'''
+
 
     # DONE Funktionsnamen unbenannt --> alle Funktionen nun mit penalty
     def reset(self):
-        self._domain = self.Domain.initial # DONE initial raus, dafür positive
+        self._domain = self.Domain.positive # DONE initial raus, dafür positive
         self._Phi_idx = 0
         self._system_response = self.System_Response.advantageous
         self._current_penalty_function = self.get_penalty_function()
