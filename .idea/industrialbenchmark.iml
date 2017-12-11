@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/gym_IB" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gym_IB/gym_IB" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gym_IB/gym_IB/envs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/industrial_benchmark_python/test_data" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

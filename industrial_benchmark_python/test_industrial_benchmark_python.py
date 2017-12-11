@@ -39,19 +39,19 @@ class TestIB(unittest.TestCase):
             #np.savetxt('operational_States'+str(i)+'.csv', operational_States)
 
             #all_States_np =np.asarray(all_States)
-            np.savetxt('all_States_test' + str(i) + '.csv', all_States)
-            np.savetxt('operational_States_test'+str(i)+'.csv', operational_States)
+            np.savetxt('test_data/all_States_test' + str(i) + '.csv', all_States)
+            np.savetxt('test_data/operational_States_test'+str(i)+'.csv', operational_States)
 
 
 
             # compare files
-            compare_file_all_States = genfromtxt('all_States'+str(i)+'.csv', delimiter=',')
-            compare_file_operational_States = genfromtxt('operational_States'+str(i)+'.csv', delimiter=',')
+            compare_file_all_States = genfromtxt('test_data/all_States'+str(i)+'.csv', delimiter=',')
+            compare_file_operational_States = genfromtxt('test_data/operational_States'+str(i)+'.csv', delimiter=',')
 
 
             # test files
-            test_file_all_States = genfromtxt('all_States_test' + str(i) + '.csv', delimiter=',')
-            test_operational_States = genfromtxt('operational_States_test' + str(i) + '.csv', delimiter=',')
+            test_file_all_States = genfromtxt('test_data/all_States_test' + str(i) + '.csv', delimiter=',')
+            test_operational_States = genfromtxt('test_data/operational_States_test' + str(i) + '.csv', delimiter=',')
 
 
 

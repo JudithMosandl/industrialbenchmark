@@ -2,29 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2aef39-300b-43bf-a283-050c37cc7c4a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/goldstone/nlgp.py" afterPath="$PROJECT_DIR$/industrial_benchmark_python/nlgp.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States0.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test0.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States0.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States_test0.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States_test1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States_test2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States_test3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States_test4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States_test5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States_test6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States_test7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States_test8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/industrial_benchmark_python/operational_States_test9.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/industrialbenchmark.iml" afterPath="$PROJECT_DIR$/.idea/industrialbenchmark.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States0.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States0.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States1.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States1.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States2.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States3.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States4.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States5.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States6.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States7.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States8.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States8.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States9.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test0.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test0.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test1.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test1.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test2.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test2.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test3.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test4.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test5.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test5.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test6.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test6.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test7.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test7.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test8.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test8.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test9.csv" afterPath="$PROJECT_DIR$/industrial_benchmark_python/all_States_test9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/goldstone/dynamics.py" afterPath="$PROJECT_DIR$/industrial_benchmark_python/goldstone/dynamics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py" afterPath="$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +74,8 @@
       <file leaf-file-name="test_industrial_benchmark_python.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="-15">
+              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -161,15 +181,15 @@
         <option value="$PROJECT_DIR$/gym_IB/gym_IB/__init__.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_openai/DQN_KerasRL_IBDiscrete.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_openai/OpenAI_IB.py" />
-        <option value="$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_python/example.py" />
         <option value="$PROJECT_DIR$/industrial_benchmark_python/goldstone/dynamics.py" />
+        <option value="$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
-    <option name="y" value="23" />
+    <option name="x" value="44" />
+    <option name="y" value="42" />
     <option name="width" value="1266" />
     <option name="height" value="773" />
   </component>
@@ -538,9 +558,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_industrial_benchmark_python - 2017.12.04 at 20h 42m 22s.xml">
-      <configuration name="Unittests in test_industrial_benchmark_python" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_industrial_benchmark_python - 2017.12.04 at 20h 43m 43s.xml">
       <configuration name="Unittests in test_industrial_benchmark_python" configurationId="tests" />
     </history-entry>
@@ -568,9 +585,12 @@
     <history-entry file="Unittests_in_test_industrial_benchmark_python - 2017.12.11 at 09h 56m 57s.xml">
       <configuration name="Unittests in test_industrial_benchmark_python" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_industrial_benchmark_python - 2017.12.11 at 10h 08m 11s.xml">
+      <configuration name="Unittests in test_industrial_benchmark_python" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="23" width="1266" height="773" extended-state="0" />
+    <frame x="44" y="42" width="1266" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -971,8 +991,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/industrial_benchmark_python/test_industrial_benchmark_python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="-15">
+          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding />
         </state>
       </provider>
